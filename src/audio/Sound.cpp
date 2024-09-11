@@ -18,6 +18,7 @@ void Sound::load(const std::string &path) {
     SDL_free(wavBuffer);
     mSoundBuffer.resize(wavLength * 4);
     mSoundLength = SDL_GetAudioStreamData(converter, &mSoundBuffer[0], static_cast<int>(mSoundBuffer.size()));
+    mSoundBuffer.resize(mSoundLength);
     SDL_DestroyAudioStream(converter);
 }
 
