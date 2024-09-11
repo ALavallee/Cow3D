@@ -1,5 +1,5 @@
-#ifndef COW3D_MODELINSTANCE_H
-#define COW3D_MODELINSTANCE_H
+#ifndef COW3D_ANIMATED_MODEL_H
+#define COW3D_ANIMATED_MODEL_H
 
 #include <vector>
 #include "model/Model.h"
@@ -49,4 +49,4 @@ private:
 
 }
 
-#endif //COW3D_MODELINSTANCE_H
+#endif //COW3D_ANIMATED_MODEL_H
