@@ -1,5 +1,5 @@
 # Cow3D : OpenGL Rendering Engine
-Rendering engine developped internally. Sources accessible to ease code sharing.
+Rendering engine developed internally. Sources accessible to ease code sharing.
 # Font & Texture
 - PNG
 - JPEG
