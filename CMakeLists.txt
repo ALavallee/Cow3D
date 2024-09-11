@@ -15,13 +15,13 @@ FetchContent_MakeAvailable(sdl3)
 include_directories(${sdl3_SOURCE_DIR}/include)
 
 file(GLOB_RECURSE COW3D_SOURCES
-        "src/*.c"
-        "src/*.h"
-        "src/*.cpp"
-        "src/*.hpp")
+        "Cow3D/*.c"
+        "Cow3D/*.h"
+        "Cow3D/*.cpp"
+        "Cow3D/*.hpp")
 
 add_executable(Cow3D ${COW3D_SOURCES})
 
-target_include_directories(Cow3D PRIVATE src)
+target_include_directories(Cow3D PRIVATE Cow3D)
 
 target_link_libraries(Cow3D SDL3-static opengl32)
