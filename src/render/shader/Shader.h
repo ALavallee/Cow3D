@@ -1,5 +1,5 @@
-#ifndef EVOCLIENT_SHADER_H
-#define EVOCLIENT_SHADER_H
+#ifndef COW3D_SHADER_H
+#define COW3D_SHADER_H
 
 #include <string>
 #include <vector>
@@ -44,4 +44,4 @@ private:
 
 }
 
-#endif //EVOCLIENT_SHADER_H
+#endif //COW3D_SHADER_H

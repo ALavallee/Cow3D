@@ -1,5 +1,5 @@
-#ifndef OECLIENT_ANGLE_H
-#define OECLIENT_ANGLE_H
+#ifndef COW3D_ANGLE_H
+#define COW3D_ANGLE_H
 
 #include <cmath>
 
@@ -18,4 +18,4 @@ public:
 
 }
 
-#endif //OECLIENT_ANGLE_H
+#endif //COW3D_ANGLE_H

@@ -1,5 +1,5 @@
-#ifndef EVOCLIENT_COLOR_H
-#define EVOCLIENT_COLOR_H
+#ifndef COW3D_COLOR_H
+#define COW3D_COLOR_H
 
 #include "math/Vec4.h"
 
@@ -57,4 +57,4 @@ public:
 
 }
 
-#endif //EVOCLIENT_COLOR_H
+#endif //COW3D_COLOR_H

@@ -1,5 +1,5 @@
-#ifndef EVOCLIENT_TRANSFORMTRACK_H
-#define EVOCLIENT_TRANSFORMTRACK_H
+#ifndef COW3D_TRANSFORMTRACK_H
+#define COW3D_TRANSFORMTRACK_H
 
 #include "Track.h"
 #include "math/Transform.h"
@@ -29,4 +29,4 @@ struct TransformTrack {
 
 }
 
-#endif //EVOCLIENT_TRANSFORMTRACK_H
+#endif //COW3D_TRANSFORMTRACK_H

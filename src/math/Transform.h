@@ -1,5 +1,5 @@
-#ifndef EVOCLIENT_TRANSFORM_H
-#define EVOCLIENT_TRANSFORM_H
+#ifndef COW3D_TRANSFORM_H
+#define COW3D_TRANSFORM_H
 
 #include "Mat4.h"
 #include "Vec3.h"
@@ -40,4 +40,4 @@ struct Transform {
 
 }
 
-#endif //EVOCLIENT_TRANSFORM_H
+#endif //COW3D_TRANSFORM_H

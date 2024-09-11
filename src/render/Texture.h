@@ -1,5 +1,5 @@
-#ifndef EVOCLIENT_TEXTURE_H
-#define EVOCLIENT_TEXTURE_H
+#ifndef COW3D_TEXTURE_H
+#define COW3D_TEXTURE_H
 
 #include <vector>
 #include <string>
@@ -44,4 +44,4 @@ private:
 
 }
 
-#endif //EVOCLIENT_TEXTURE_H
+#endif //COW3D_TEXTURE_H

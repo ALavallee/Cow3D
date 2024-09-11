@@ -1,5 +1,5 @@
-#ifndef EVO_VEC3_H
-#define EVO_VEC3_H
+#ifndef COW3D_VEC3_H
+#define COW3D_VEC3_H
 
 #include <cmath>
 #include <string>
@@ -151,4 +151,4 @@ struct hash<cow::Vec3<T>> {
 }
 
 
-#endif //OEMIA_VEC3_H
+#endif //COW3D_VEC3_H

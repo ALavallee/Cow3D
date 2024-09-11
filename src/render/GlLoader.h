@@ -1,5 +1,5 @@
-#ifndef OECLIENT_GL_LOADER_H
-#define OECLIENT_GL_LOADER_H
+#ifndef COW3D_GL_LOADER_H
+#define COW3D_GL_LOADER_H
 
 #include <GL/gl.h>
 #include <stdbool.h>
@@ -132,7 +132,8 @@ typedef void (APIENTRYP PFNGLTEXIMAGE3DPROC)(GLenum target, GLint level, GLint i
                                              const void *pixels);
 
 typedef void (APIENTRYP PFNGLTEXSUBIMAGE3DPROC)(GLenum target, GLint level, GLint xoffset, GLint yoffset, GLint zoffset,
-                                                GLsizei width, GLsizei height, GLsizei depth, GLenum format, GLenum type,
+                                                GLsizei width, GLsizei height, GLsizei depth, GLenum format,
+                                                GLenum type,
                                                 const void *pixels);
 
 typedef void (APIENTRYP PFNGLVERTEXATTRIBDIVISORPROC)(GLuint index, GLuint divisor);
@@ -205,4 +206,4 @@ float gl_get_anisotropy();
 
 }
 
-#endif //OECLIENT_GL_LOADER_H
+#endif //COW3D_GL_LOADER_H

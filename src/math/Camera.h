@@ -1,5 +1,5 @@
-#ifndef EVO_CAMERA_H
-#define EVO_CAMERA_H
+#ifndef COW3D_CAMERA_H
+#define COW3D_CAMERA_H
 
 #include "Mat4.h"
 #include "Vec2.h"
@@ -95,4 +95,4 @@ private:
 
 }
 
-#endif //EVO_CAMERA_H
+#endif //COW3D_CAMERA_H

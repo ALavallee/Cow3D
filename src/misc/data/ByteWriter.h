@@ -1,5 +1,5 @@
-#ifndef EVOSERVER_BYTEWRITER_H
-#define EVOSERVER_BYTEWRITER_H
+#ifndef COW3D_BYTEWRITER_H
+#define COW3D_BYTEWRITER_H
 
 #include <string>
 #include <vector>
@@ -53,4 +53,4 @@ private:
 
 }
 
-#endif //EVOSERVER_BYTEWRITER_H
+#endif //COW3D_BYTEWRITER_H

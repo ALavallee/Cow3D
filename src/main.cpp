@@ -7,6 +7,7 @@ int main() {
 
 
     engine.getAudio().playSound(engine.getRes().getSound("chest"));
+    engine.getAudio().playSound(engine.getRes().getSound("thune"));
 
     auto animation = engine.getScene3D().addAnimation(cow::Vec3f(0, 0, 2), engine.getRes().getModel("arthur"), 1);
     animation->getModel().playAnimation("running", true);

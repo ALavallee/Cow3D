@@ -1,5 +1,5 @@
-#ifndef EVO_VEC2_H
-#define EVO_VEC2_H
+#ifndef COW3D_VEC2_H
+#define COW3D_VEC2_H
 
 #include <string>
 #include <cmath>
@@ -88,4 +88,4 @@ struct hash<cow::Vec2i> {
 };
 }
 
-#endif //EVO_VEC2_H
+#endif //COW3D_VEC2_H

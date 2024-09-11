@@ -1,5 +1,5 @@
-#ifndef EVO_VEC4_H
-#define EVO_VEC4_H
+#ifndef COW3D_VEC4_H
+#define COW3D_VEC4_H
 
 namespace cow {
 
@@ -29,4 +29,4 @@ typedef Vec4<float> Vec4f;
 
 }
 
-#endif //FABLE_OF_OEMIA_VEC4_H
+#endif //COW3D_VEC4_H

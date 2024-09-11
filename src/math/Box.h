@@ -1,5 +1,5 @@
-#ifndef OECLIENT_BOX_H
-#define OECLIENT_BOX_H
+#ifndef COW3D_BOX_H
+#define COW3D_BOX_H
 
 #include "Vec3.h"
 #include "misc/data/ByteReader.h"
@@ -50,4 +50,4 @@ typedef Box<double> Boxd;
 
 }
 
-#endif //OECLIENT_BOX_H
+#endif //COW3D_BOX_H

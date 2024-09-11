@@ -1,5 +1,5 @@
-#ifndef EVOSERVER_LOGGER_H
-#define EVOSERVER_LOGGER_H
+#ifndef COW3D_LOGGER_H
+#define COW3D_LOGGER_H
 
 #include <iostream>
 #include <string>
@@ -18,4 +18,4 @@ public:
 
 }
 
-#endif //EVOSERVER_LOGGER_H
+#endif //COW3D_LOGGER_H

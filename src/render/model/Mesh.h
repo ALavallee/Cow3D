@@ -1,5 +1,5 @@
-#ifndef EVOCLIENT_MESH_H
-#define EVOCLIENT_MESH_H
+#ifndef COW3D_MESH_H
+#define COW3D_MESH_H
 
 #include <vector>
 #include "render/VertexArray.h"
@@ -24,4 +24,4 @@ struct Mesh {
 
 }
 
-#endif //EVOCLIENT_MESH_H
+#endif //COW3D_MESH_H

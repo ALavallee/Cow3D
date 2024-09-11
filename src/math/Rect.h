@@ -1,5 +1,5 @@
-#ifndef EVOCLIENT_RECT_H
-#define EVOCLIENT_RECT_H
+#ifndef COW3D_RECT_H
+#define COW3D_RECT_H
 
 #include "Vec2.h"
 #include "misc/data/ByteReader.h"
@@ -47,4 +47,4 @@ typedef Rect<float> Rectf;
 
 }
 
-#endif //EVOCLIENT_RECT_H
+#endif //COW3D_RECT_H

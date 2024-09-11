@@ -1,5 +1,5 @@
-#ifndef EVOCLIENT_NODE_H
-#define EVOCLIENT_NODE_H
+#ifndef COW3D_NODE_H
+#define COW3D_NODE_H
 
 #include <string>
 #include "math/Transform.h"
@@ -32,4 +32,4 @@ struct Node {
 
 }
 
-#endif //EVOCLIENT_NODE_H
+#endif //COW3D_NODE_H

@@ -1,5 +1,5 @@
-#ifndef EVOSERVER_BYTEREADER_H
-#define EVOSERVER_BYTEREADER_H
+#ifndef COW3D_BYTEREADER_H
+#define COW3D_BYTEREADER_H
 
 #include <string>
 #include <vector>
@@ -65,4 +65,4 @@ private:
 
 }
 
-#endif //EVOSERVER_BYTEREADER_H
+#endif //COW3D_BYTEREADER_H

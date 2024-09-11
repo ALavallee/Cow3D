@@ -1,5 +1,5 @@
-#ifndef OECLIENT_TRIANGLE_H
-#define OECLIENT_TRIANGLE_H
+#ifndef COW3D_TRIANGLE_H
+#define COW3D_TRIANGLE_H
 
 #include "Vec3.h"
 
@@ -23,4 +23,4 @@ public:
 
 }
 
-#endif //OECLIENT_TRIANGLE_H
+#endif //COW3D_TRIANGLE_H

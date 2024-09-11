@@ -1,5 +1,5 @@
-#ifndef EVOCLIENT_VERTEXARRAY_H
-#define EVOCLIENT_VERTEXARRAY_H
+#ifndef COW3D_VERTEXARRAY_H
+#define COW3D_VERTEXARRAY_H
 
 #include <vector>
 #include "GlLoader.h"
@@ -73,4 +73,4 @@ private:
 
 }
 
-#endif //EVOCLIENT_VERTEXARRAY_H
+#endif //COW3D_VERTEXARRAY_H

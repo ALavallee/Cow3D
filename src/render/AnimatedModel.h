@@ -1,5 +1,5 @@
-#ifndef FABLE_OF_OEMIA_MODELINSTANCE_H
-#define FABLE_OF_OEMIA_MODELINSTANCE_H
+#ifndef COW3D_MODELINSTANCE_H
+#define COW3D_MODELINSTANCE_H
 
 #include <vector>
 #include "model/Model.h"
@@ -49,4 +49,4 @@ private:
 
 }
 
-#endif //FABLE_OF_OEMIA_MODELINSTANCE_H
+#endif //COW3D_MODELINSTANCE_H

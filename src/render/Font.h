@@ -1,5 +1,5 @@
-#ifndef EVOCLIENT_FONT_H
-#define EVOCLIENT_FONT_H
+#ifndef COW3D_FONT_H
+#define COW3D_FONT_H
 
 #include <vector>
 #include "ext/stb/stb_truetype.h"
@@ -46,4 +46,4 @@ private:
 
 }
 
-#endif //EVOCLIENT_FONT_H
+#endif //COW3D_FONT_H

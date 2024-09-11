@@ -1,5 +1,5 @@
-#ifndef EVOCLIENT_ANIMATION_H
-#define EVOCLIENT_ANIMATION_H
+#ifndef COW3D_ANIMATION_H
+#define COW3D_ANIMATION_H
 
 #include <string>
 #include <vector>
@@ -14,4 +14,4 @@ struct Animation {
 
 }
 
-#endif //EVOCLIENT_ANIMATION_H
+#endif //COW3D_ANIMATION_H

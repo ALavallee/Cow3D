@@ -1,5 +1,5 @@
-#ifndef EVOCLIENT_FRAME_H
-#define EVOCLIENT_FRAME_H
+#ifndef COW3D_FRAME_H
+#define COW3D_FRAME_H
 
 #include "math/Vec3.h"
 #include "math/Quat.h"
@@ -10,4 +10,4 @@ struct Frame {
     T v;
 };
 
-#endif //EVOCLIENT_FRAME_H
+#endif //COW3D_FRAME_H

@@ -1,5 +1,5 @@
-#ifndef EVOCLIENT_QUAT_H
-#define EVOCLIENT_QUAT_H
+#ifndef COW3D_QUAT_H
+#define COW3D_QUAT_H
 
 #include <cmath>
 
@@ -78,4 +78,4 @@ struct Quat {
 
 }
 
-#endif //EVOCLIENT_QUAT_H
+#endif //COW3D_QUAT_H
