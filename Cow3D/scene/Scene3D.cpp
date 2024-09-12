@@ -1,6 +1,6 @@
 #include "Scene3D.h"
-#include "render/shader/DefaultShader.h"
-#include "render/Texture.h"
+#include "Cow3D/render/shader/DefaultShader.h"
+#include "Cow3D/render/Texture.h"
 
 namespace cow {
 

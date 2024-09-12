@@ -2,7 +2,7 @@
 #define COW3D_MESH_H
 
 #include <vector>
-#include "render/VertexArray.h"
+#include "Cow3D/render/VertexArray.h"
 
 namespace cow {
 

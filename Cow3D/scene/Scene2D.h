@@ -2,10 +2,10 @@
 #define COW3D_SCENE2D_H
 
 #include <vector>
-#include "instance/2d/Text.h"
+#include "Cow3D/instance/2d/Text.h"
 #include "Scene.h"
-#include "render/shader/Shader.h"
-#include "math/Camera.h"
+#include "Cow3D/render/shader/Shader.h"
+#include "Cow3D/math/Camera.h"
 
 namespace cow {
 

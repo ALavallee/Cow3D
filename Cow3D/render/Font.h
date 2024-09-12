@@ -3,8 +3,8 @@
 
 #include <vector>
 #include "ext/stb/stb_truetype.h"
-#include "math/Rect.h"
-#include "render/Texture.h"
+#include "Cow3D/math/Rect.h"
+#include "Cow3D/render/Texture.h"
 
 namespace cow {
 

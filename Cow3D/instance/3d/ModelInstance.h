@@ -1,7 +1,7 @@
 #ifndef COW3D_MODELINSTANCE_H
 #define COW3D_MODELINSTANCE_H
 
-#include "render/model/Model.h"
+#include "Cow3D/render/model/Model.h"
 #include "Instance3D.h"
 
 namespace cow {

@@ -3,8 +3,8 @@
 
 #include <vector>
 #include "Instance3D.h"
-#include "render/VertexArray.h"
-#include "render/Color.h"
+#include "Cow3D/render/VertexArray.h"
+#include "Cow3D/render/Color.h"
 
 namespace cow {
 

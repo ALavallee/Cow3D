@@ -3,7 +3,7 @@
 
 #include <string>
 #include <cmath>
-#include "misc/data/ByteReader.h"
+#include "Cow3D/misc/data/ByteReader.h"
 
 namespace cow {
 

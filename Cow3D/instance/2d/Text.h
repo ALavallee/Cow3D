@@ -3,8 +3,8 @@
 
 #include <string>
 #include "Instance2D.h"
-#include "render/Font.h"
-#include "render/VertexArray.h"
+#include "Cow3D/render/Font.h"
+#include "Cow3D/render/VertexArray.h"
 
 namespace cow {
 

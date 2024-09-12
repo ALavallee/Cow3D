@@ -1,5 +1,5 @@
 #include "Scene2D.h"
-#include "render/shader/DefaultShader.h"
+#include "Cow3D/render/shader/DefaultShader.h"
 
 namespace cow {
 

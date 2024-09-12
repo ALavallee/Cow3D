@@ -4,8 +4,8 @@
 
 #include "ext/cgltf/cgltf.h"
 #include "Track.h"
-#include "other/Logger.h"
-#include "other/File.h"
+#include "Cow3D/other/Logger.h"
+#include "Cow3D/other/File.h"
 
 static cgltf_result
 LoadFileGLTFCallback(const struct cgltf_memory_options *memoryOptions, const struct cgltf_file_options *fileOptions,

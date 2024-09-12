@@ -2,7 +2,8 @@
 #define COW3D_ANIMATED_MODEL_H
 
 #include <vector>
-#include "model/Model.h"
+#include "Cow3D/render/model/Model.h"
+#include "Cow3D/render/model/Model.h"
 
 namespace cow {
 

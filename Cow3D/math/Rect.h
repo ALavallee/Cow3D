@@ -2,7 +2,7 @@
 #define COW3D_RECT_H
 
 #include "Vec2.h"
-#include "misc/data/ByteReader.h"
+#include "Cow3D/misc/data/ByteReader.h"
 
 namespace cow {
 

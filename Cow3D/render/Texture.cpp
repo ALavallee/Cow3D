@@ -3,7 +3,7 @@
 #define STB_IMAGE_IMPLEMENTATION
 
 #include "ext/stb/stb_image.h"
-#include "other/Logger.h"
+#include "Cow3D/other/Logger.h"
 
 namespace cow {
 

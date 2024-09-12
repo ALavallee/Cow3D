@@ -1,8 +1,8 @@
 #ifndef COW3D_INSTANCE2D_H
 #define COW3D_INSTANCE2D_H
 
-#include "math/Vec2.h"
-#include "instance/Instance.h"
+#include "Cow3D/math/Vec2.h"
+#include "Cow3D/instance/Instance.h"
 
 namespace cow {
 

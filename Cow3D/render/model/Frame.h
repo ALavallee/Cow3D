@@ -1,8 +1,8 @@
 #ifndef COW3D_FRAME_H
 #define COW3D_FRAME_H
 
-#include "math/Vec3.h"
-#include "math/Quat.h"
+#include "Cow3D/math/Vec3.h"
+#include "Cow3D/math/Quat.h"
 
 template<class T>
 struct Frame {

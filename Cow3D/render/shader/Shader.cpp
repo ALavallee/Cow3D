@@ -1,5 +1,5 @@
 #include "Shader.h"
-#include "other/File.h"
+#include "Cow3D/other/File.h"
 
 namespace cow {
 

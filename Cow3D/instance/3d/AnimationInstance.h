@@ -2,7 +2,7 @@
 #define COW3D_ANIMATIONINSTANCE_H
 
 #include "Instance3D.h"
-#include "render/AnimatedModel.h"
+#include "Cow3D/render/AnimatedModel.h"
 
 namespace cow {
 

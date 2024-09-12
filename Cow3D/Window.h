@@ -3,7 +3,7 @@
 
 #include <string>
 #include <SDL3/SDL.h>
-#include "math/Vec2.h"
+#include "Cow3D/math/Vec2.h"
 
 namespace cow {
 

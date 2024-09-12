@@ -22,6 +22,6 @@ file(GLOB_RECURSE COW3D_SOURCES
 
 add_executable(Cow3D ${COW3D_SOURCES})
 
-target_include_directories(Cow3D PRIVATE Cow3D)
+target_include_directories(Cow3D PRIVATE /)
 
 target_link_libraries(Cow3D SDL3-static opengl32)

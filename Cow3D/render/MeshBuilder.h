@@ -2,9 +2,9 @@
 #define COW3D_MESHBUILDER_H
 
 #include <vector>
-#include "math/Vec3.h"
-#include "math/Vec2.h"
-#include "math/Triangle.h"
+#include "Cow3D/math/Vec3.h"
+#include "Cow3D/math/Vec2.h"
+#include "Cow3D/math/Triangle.h"
 #include "VertexArray.h"
 
 namespace cow {

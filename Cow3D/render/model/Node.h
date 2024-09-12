@@ -2,8 +2,8 @@
 #define COW3D_NODE_H
 
 #include <string>
-#include "math/Transform.h"
-#include "math/Mat4.h"
+#include "Cow3D/math/Transform.h"
+#include "Cow3D/math/Mat4.h"
 
 namespace cow {
 

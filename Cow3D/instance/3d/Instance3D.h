@@ -1,8 +1,8 @@
 #ifndef COW3D_INSTANCE3D_H
 #define COW3D_INSTANCE3D_H
 
-#include "instance/Instance.h"
-#include "math/vec3.h"
+#include "Cow3D/instance/Instance.h"
+#include "Cow3D/math/vec3.h"
 
 namespace cow {
 

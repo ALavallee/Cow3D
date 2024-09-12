@@ -3,10 +3,10 @@
 
 #include <vector>
 #include "GlLoader.h"
-#include "math/Vec2.h"
-#include "math/Vec3.h"
-#include "math/Vec4.h"
-#include "math/Mat4.h"
+#include "Cow3D/math/Vec2.h"
+#include "Cow3D/math/Vec3.h"
+#include "Cow3D/math/Vec4.h"
+#include "Cow3D/math/Mat4.h"
 
 namespace cow {
 

@@ -2,7 +2,7 @@
 #define EVOCLIENT_MODEL_H
 
 #include <vector>
-#include "render/Texture.h"
+#include "Cow3D/render/Texture.h"
 #include "Mesh.h"
 #include "Animation.h"
 #include "Node.h"

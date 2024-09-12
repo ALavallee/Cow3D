@@ -3,12 +3,12 @@
 
 #include <vector>
 #include "Scene.h"
-#include "math/Camera.h"
-#include "render/VertexArray.h"
-#include "instance/3d/Geometry.h"
-#include "instance/3d/ModelInstance.h"
-#include "instance/3d/AnimationInstance.h"
-#include "render/shader/Shader.h"
+#include "Cow3D/math/Camera.h"
+#include "Cow3D/render/VertexArray.h"
+#include "Cow3D/instance/3d/Geometry.h"
+#include "Cow3D/instance/3d/ModelInstance.h"
+#include "Cow3D/instance/3d/AnimationInstance.h"
+#include "Cow3D/render/shader/Shader.h"
 
 namespace cow {
 

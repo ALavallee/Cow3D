@@ -1,7 +1,7 @@
 #ifndef COW3D_COLOR_H
 #define COW3D_COLOR_H
 
-#include "math/Vec4.h"
+#include "Cow3D/math/Vec4.h"
 
 namespace cow {
 

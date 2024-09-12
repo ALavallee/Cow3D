@@ -1,6 +1,6 @@
 #include "Font.h"
 
-#include "other/File.h"
+#include "Cow3D/other/File.h"
 #include "ext/Arial.h"
 
 #define STBTT_STATIC

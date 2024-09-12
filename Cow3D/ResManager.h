@@ -3,9 +3,9 @@
 
 #include <unordered_map>
 #include <string>
-#include "audio/Sound.h"
-#include "render/Texture.h"
-#include "render/model/Model.h"
+#include "Cow3D/audio/Sound.h"
+#include "Cow3D/render/Texture.h"
+#include "Cow3D/render/model/Model.h"
 
 namespace cow {
 
