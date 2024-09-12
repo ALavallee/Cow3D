@@ -20,7 +20,7 @@ file(GLOB_RECURSE COW3D_SOURCES
         "Cow3D/*.cpp"
         "Cow3D/*.hpp")
 
-add_executable(Cow3D ${COW3D_SOURCES})
+add_library(Cow3D STATIC ${COW3D_SOURCES})
 
 target_include_directories(Cow3D PRIVATE /)
 
