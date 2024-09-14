@@ -19,6 +19,10 @@ public:
 
     void swap();
 
+    void setMouseRelative(bool relative);
+
+    void setHiddenMouse(bool hidden);
+
 private:
     SDL_Window *mWindow;
     SDL_GLContext mContext;

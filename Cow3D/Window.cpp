@@ -38,4 +38,16 @@ void Window::swap() {
     SDL_GL_SwapWindow(mWindow);
 }
 
+void Window::setMouseRelative(bool relative) {
+    SDL_SetWindowRelativeMouseMode(mWindow, relative);
+}
+
+void Window::setHiddenMouse(bool hidden) {
+    if (hidden) {
+        SDL_ShowCursor();
+    } else {
+        SDL_HideCursor();
+    }
+}
+
 }
