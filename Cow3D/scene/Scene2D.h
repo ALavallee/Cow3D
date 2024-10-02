@@ -3,6 +3,7 @@
 
 #include <vector>
 #include "Cow3D/instance/2d/Text.h"
+#include "Cow3D/instance/2d/Sprite.h"
 #include "Scene.h"
 #include "Cow3D/render/shader/Shader.h"
 #include "Cow3D/math/Camera.h"
@@ -17,10 +18,13 @@ public:
 
     Text *addText(Vec2f pos, std::string text, float fontSize);
 
+    Sprite *addSprite(Vec2f pos, Vec2f size, Texture *texture);
+
     void draw(Camera &camera);
 
 private:
     std::vector<Text *> mTexts;
+    std::vector<Sprite *> mSprites;
     Shader mScreenShader;
 
 };

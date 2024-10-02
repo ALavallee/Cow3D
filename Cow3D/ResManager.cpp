@@ -34,6 +34,10 @@ Sound *ResManager::getSound(const std::string &name) {
 }
 
 void ResManager::loadResources(const std::string &directory, const std::string &type) {
+    if (!std::filesystem::exists(directory)) {
+        return;
+    }
+    
     for (const auto &entry: std::filesystem::recursive_directory_iterator(directory)) {
         if (entry.is_regular_file()) {
             std::string path = entry.path().string();

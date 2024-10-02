@@ -1,7 +1,7 @@
-#include "Cow3D.h"
-#include "render/MeshBuilder.h"
+#include <Cow3D/Cow3D.h>
+#include <Cow3D/render/MeshBuilder.h>
 
-void example0() {
+int main() {
 
     cow::Cow3D engine("Cow3D");
 
@@ -12,13 +12,12 @@ void example0() {
     for (int x = 0; x < 5; ++x) {
         for (int y = 0; y < 5; ++y) {
             auto animation = engine.getScene3D().addAnimation(cow::Vec3f(x - 2, y - 2, 3),
-                                                              engine.getRes().getModel("arthur"),
-                                                              1);
+                                                              engine.getRes().getModel("arthur"), 1);
             animation->getModel().playAnimation("running", true);
         }
     }
 
-    auto text = engine.getScene2D().addText(cow::Vec2f(0, 100), "Cow3D !", 64);
+    auto text = engine.getScene2D().addText(cow::Vec2f(0, 200), "Cow3D !", 64);
     text->setColor(cow::Color::yellow());
 
     bool run = true;

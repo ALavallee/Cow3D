@@ -25,3 +25,20 @@ add_library(Cow3D STATIC ${COW3D_SOURCES})
 target_include_directories(Cow3D PRIVATE /)
 
 target_link_libraries(Cow3D SDL3-static opengl32)
+
+
+# Find and add the examples
+file(GLOB EXAMPLES_SOURCES "example/*.cpp")
+
+foreach(EXAMPLE_SOURCE ${EXAMPLES_SOURCES})
+    # Get the filename without extension for the executable name
+    get_filename_component(EXAMPLE_NAME ${EXAMPLE_SOURCE} NAME_WE)
+
+    add_executable(${EXAMPLE_NAME} ${EXAMPLE_SOURCE})
+
+    # Link the executable with Cow3D and other required libraries
+    target_link_libraries(${EXAMPLE_NAME} Cow3D SDL3-static opengl32)
+
+    # Add include directories if needed
+    target_include_directories(${EXAMPLE_NAME} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
+endforeach()

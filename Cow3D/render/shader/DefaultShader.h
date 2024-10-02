@@ -30,12 +30,14 @@ public:
 
         uniform mat4 camera;
         uniform vec4 color;
+        uniform vec2 pos;
 
         out vec2 texCoords;
 
         void main()
         {
-            gl_Position = camera * vec4(aPos, 0.0, 1.0);
+            // Translate the position by 'pos' and apply the camera transformation
+            gl_Position = camera * vec4(aPos + pos, 0.0, 1.0);
             texCoords = aTex;
         }
     )";
